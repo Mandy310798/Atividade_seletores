@@ -1,11 +1,14 @@
 .container{
     display: flex;
-    gap: 1px;
 }
 
 .box {
     width: 200px;
     height: 200px;
+}
+
+.line {
+    display: flex;
 }
 
 .red {
@@ -26,4 +29,7 @@
 
 .border-black {
     border: 1px solid black;
+}
+.border-white{
+    border: 1px solid white;
 }
