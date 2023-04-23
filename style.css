@@ -1,11 +1,29 @@
-.vermelhos {
-
-    display: inline-block;
-    border: 1px solid black;
-    background-color: red;
-
-    width: 200px;
-    height: 200px;
-
+.container{
+    display: flex;
+    gap: 1px;
 }
 
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: #00b0f0;
+}
+
+.green {
+    background-color: #00b050;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.border-black {
+    border: 1px solid black;
+}
